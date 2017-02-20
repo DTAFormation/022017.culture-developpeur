@@ -7,26 +7,12 @@ body {
 h1 {
     font-size: 200% ;
     color: #778899 ;
-    text-align: left ;
+    text-align: center ;
 }
 
 h2 {
     font-size: 120% ;
     color: #2F4F4F ;
-    text-align: left ;
+    padding-left: 15px;
 }
 
-a:link {
-    color: Lavender;
-    text-decoration: underline;
-}
-a:visited {
-    color: gray;
-}
-a:active {
-    color:IndianRed;
-}
-a:hover {
-    color: BurlyWood;
-    text-decoration: none;
-}
