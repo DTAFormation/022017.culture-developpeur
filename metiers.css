@@ -1,0 +1,33 @@
+body {
+    background-color: lightblue;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+    transform: rotate(2deg);
+    border-style: dotted;
+}
+
+p {
+    font-family: verdana;
+    font-size: 20px;
+    border-style: outset;
+    
+}
+
+h2 {
+transform: rotate(-2deg);
+color : red;
+}
+
+IMG.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+
+a:link {color: green;}
+a:visited {color: gray;}
+a:hover {color: yellow;}
+a:active {color: teal;}
