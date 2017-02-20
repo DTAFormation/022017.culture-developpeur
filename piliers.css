@@ -1,0 +1,31 @@
+body {
+    background-color: #FFF8DC ;
+    font-family: Calibri ;
+    font-size: 100% ;
+    text-align : justify ;
+    
+    border-width:1px 2px 3px 2px;
+    border-style:solid ;
+    border-color: #DEB887;
+    padding:0 20px;
+    
+    max-width: 75%;
+    margin-top: 10px ;
+    margin-bottom: 10em;
+    margin-left: auto ;
+    margin-right: auto ;
+   
+}
+
+h1 {
+    font-size: 200% ;
+    color: #778899 ;
+    text-align: center ;
+}
+
+h2 {
+    font-size: 120% ;
+    color: #2F4F4F ;
+    padding-left: 15px;
+}
+

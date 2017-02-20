@@ -1,0 +1,48 @@
+body {
+    background-color: lightblue;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    text-shadow: 3px 2px red;
+}
+
+h2 {
+    color: darkblue;
+    text-align: justify;
+    text-indent: 50px;
+}
+
+h3 {
+    color: darkslateblue;
+    text-align: justify;
+    text-indent: 50px;
+}
+
+p {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 14px;
+    color: black;
+}
+
+img {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 30%;
+    border: 1px solid lightseagreen;
+}
+
+#rcorners2 {
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 20px;
+    margin: auto;
+    max-width: 100%;
+    height: auto;
+    background: lightsteelblue;
+    opacity: 0.8;
+    filter: alpha(opacity=80); /* For IE8 and earlier */
+}
