@@ -1,5 +1,2 @@
 == 
 
-vide
-
-Nope
