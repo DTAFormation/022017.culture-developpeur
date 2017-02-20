@@ -37,7 +37,8 @@ background-size: 1800% 1800%;
 }/* CSS Document */
 
 h1 {
-    text-align: center;
+transform: rotate(40deg);
+color : yellow;
 }
 
 
@@ -45,3 +46,8 @@ a:link {color: green;}
 a:visited {color: gray;}
 a:hover {color: yellow;}
 a:active {color: teal;}
+
+h2 {
+transform: rotate(-40deg);
+color : red;
+}
