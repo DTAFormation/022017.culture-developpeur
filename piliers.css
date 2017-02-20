@@ -3,6 +3,7 @@ body {
     font-family: Calibri ;
     font-size: 100% ;
     text-align : justify ;
+    max-width: 80% ;
 }
 
 h1 {
@@ -17,17 +18,3 @@ h2 {
     padding-left: 15px;
 }
 
-
-#entete, #footer {
-  text-align:center;
-}
-#menu  {
-  float:left;
-}
-#contenu {
-  margin-left:155px;
-  margin-right:155px;
-}
-#img {
-    text-align: center ;
-}
