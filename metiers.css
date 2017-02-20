@@ -5,9 +5,13 @@ body {
 h1 {
     color: white;
     text-align: center;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+    transform: rotate(2deg);
 }
 
 p {
     font-family: verdana;
     font-size: 20px;
+    transform: rotate(-2deg);
 }
+
