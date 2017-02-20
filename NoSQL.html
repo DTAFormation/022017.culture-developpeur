@@ -1,56 +1,26 @@
 <!doctype html>
-<<<<<<< HEAD
-<meta name="viewport" content="width=device-width, initial-scale=1" http-equiv="content-type" content="text/html; charset=utf-8">
-<link rel="stylesheet" href="BDD.css">
-<html>
-    <div class="wrapper">
-        <div class="row">
-            <h1>Base de données NoSQL</h1>
-            <hr>
-            <p>En informatique et en bases de données, NoSQL désigne une famille de systèmes de gestion de base de données (SGBD) qui s'écarte du paradigme classique des bases relationnelles. L'explicitation du terme la plus populaire de l'acronyme est Not only SQL (« pas seulement SQL » en anglais) même si cette interprétation peut être discutée1.
-            </p>
-            <p>La définition exacte de la famille des SGBD NoSQL reste sujette à débat. Le terme se rattache autant à des caractéristiques techniques qu'à une génération historique de SGBD qui a émergé à la fin des années 2000/début des années 20102. D'après Pramod J. Sadalage et Martin Fowler, la raison principale de l'émergence et de l'adoption des SGBD NoSQL serait le développement des centres de données et la nécessité de posséder un paradigme de bases de données adapté à ce modèle d'infrastructure matérielle3.
-            </p>
-            <p>L'architecture machine en clusters induit une structure logicielle distribuée fonctionnant avec des agrégats répartis sur différents serveurs permettant des accès et modifications concurrentes mais imposant également de remettre en cause de nombreux fondements de l'architecture SGBD relationnelle traditionnelle, notamment les propriétés ACID.
-            </p>
-            <hr>
-        </div>
-        <div class="row">
-            <h2>NoSQL orienté-agrégats</h2>
-            <p>Une des caractéristiques retrouvée  dans de nombreux SGBD NoSQL est l'utilisation "d’agrégats de données" constitués d'un ensemble de données souvent "consultées/modifiées en même temps" et qui peuvent être déployées sur des serveurs indépendants3.
-            </p>
-            <p>À titre d'exemple considérons une application de commerce-en-ligne conçue de manière à accéder fréquemment aux informations d'un client (adresses, etc) et à l'historique de ses achats (par exemple pour lui proposer des réductions).
-            </p>
-            <ul>
-                <li>Un SGBD relationnel typique modélisera ce système en créant une table des informations clients et une table des achats puis en effectuant une jointure entre ces dernières à chaque opération. Cette architecture pourra poser problème lorsque le nombre de clients/achats deviendra important et sera difficile à répartir entre plusieurs serveurs.
-                </li>
-                <li>A contrario une architecture SGBD NoSQL typique aura tendance à modéliser ce problème en un ensemble d'agrégats constitué des informations d'un client et de ses achats. Cette architecture est plus facilement scalable. En effet ces agrégats interagissent peu entre eux et peuvent facilement être répartis sur un cluster de serveurs. Cette architecture pourra par contre poser problème si pour une raison quelconque on est amené à effectuer des requêtes qui ne correspondent pas aux cas d'utilisation immédiatement considérés. Par exemple une demande de calcul du nombre total de clients ou d'achats pourra être moins efficace que dans un système relationnel qui conserve l'ensemble des clients (resp. achats) dans une table unique.
-                </li>
-            </ul>
-        </div>
-=======
-    <meta http-equiv="content-type" content="text/html; charset=utf-8">
-    <link rel="stylesheet" href="css/BDD.css">
-<html>
-    <body>
-        <h1>Base de données NoSQL</h1>
-        <hr>
-            <p>En informatique et en bases de données, NoSQL désigne une famille de systèmes de gestion de base de données (SGBD) qui s'écarte du paradigme classique des bases relationnelles. L'explicitation du terme la plus populaire de l'acronyme est Not only SQL (« pas seulement SQL » en anglais) même si cette interprétation peut être discutée1.</p>
-            <p>La définition exacte de la famille des SGBD NoSQL reste sujette à débat. Le terme se rattache autant à des caractéristiques techniques qu'à une génération historique de SGBD qui a émergé à la fin des années 2000/début des années 20102. D'après Pramod J. Sadalage et Martin Fowler, la raison principale de l'émergence et de l'adoption des SGBD NoSQL serait le développement des centres de données et la nécessité de posséder un paradigme de bases de données adapté à ce modèle d'infrastructure matérielle3.</p>
-            <p>L'architecture machine en clusters induit une structure logicielle distribuée fonctionnant avec des agrégats répartis sur différents serveurs permettant des accès et modifications concurrentes mais imposant également de remettre en cause de nombreux fondements de l'architecture SGBD relationnelle traditionnelle, notamment les propriétés ACID.</p>
-        <hr>
-        <h2>NoSQL orienté-agrégats</h2>
-            <p>Une des caractéristiques retrouvée dans de nombreux SGBD NoSQL est l'utilisation "d’agrégats de données" constitués d'un ensemble de données souvent "consultées/modifiées en même temps" et qui peuvent être déployées sur des serveurs indépendants3.</p>
-            <p>À titre d'exemple considérons une application de commerce-en-ligne conçue de manière à accéder fréquemment aux informations d'un client (adresses, etc) et à l'historique de ses achats (par exemple pour lui proposer des réductions).</p>
-            <ul><li>Un SGBD relationnel typique modélisera ce système en créant une table des informations clients et une table des achats puis en effectuant une jointure entre ces dernières à chaque opération. Cette architecture pourra poser problème lorsque le nombre de clients/achats deviendra important et sera difficile à répartir entre plusieurs serveurs.</li>
-            <li>A contrario une architecture SGBD NoSQL typique aura tendance à modéliser ce problème en un ensemble d'agrégats constitué des informations d'un client et de ses achats. Cette architecture est plus facilement scalable. En effet ces agrégats interagissent peu entre eux et peuvent facilement être répartis sur un cluster de serveurs. Cette architecture pourra par contre poser problème si pour une raison quelconque on est amené à effectuer des requêtes qui ne correspondent pas aux cas d'utilisation immédiatement considérés. Par exemple une demande de calcul du nombre total de clients ou d'achats pourra être moins efficace que dans un système relationnel qui conserve l'ensemble des clients (resp. achats) dans une table unique.</li></ul>
-
-    <img src="images/bdd.jpg">
-    </body>
-<<<<<<< HEAD
->>>>>>> 6d0da33... epuration
-    </div>
-</html>
-=======
-</html>
->>>>>>> 6bf3e1b... img
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+        <link rel="stylesheet" href="css/BDD.css">
+        <html>
+            <body>        <h1>Base de données NoSQL</h1>
+                <hr>
+                <p>En informatique et en bases de données, NoSQL désigne une famille de systèmes de gestion de base de données (SGBD) qui s'écarte du paradigme classique des bases relationnelles. L'explicitation du terme la plus populaire de l'acronyme est Not only SQL (« pas seulement SQL » en anglais) même si cette interprétation peut être discutée1.
+                </p>
+                <p>La définition exacte de la famille des SGBD NoSQL reste sujette à débat. Le terme se rattache autant à des caractéristiques techniques qu'à une génération historique de SGBD qui a émergé à la fin des années 2000/début des années 20102. D'après Pramod J. Sadalage et Martin Fowler, la raison principale de l'émergence et de l'adoption des SGBD NoSQL serait le développement des centres de données et la nécessité de posséder un paradigme de bases de données adapté à ce modèle d'infrastructure matérielle3.
+                </p>
+                <p>L'architecture machine en clusters induit une structure logicielle distribuée fonctionnant avec des agrégats répartis sur différents serveurs permettant des accès et modifications concurrentes mais imposant également de remettre en cause de nombreux fondements de l'architecture SGBD relationnelle traditionnelle, notamment les propriétés ACID.
+                </p>
+                <hr>        <h2>NoSQL orienté-agrégats</h2>
+                <p>Une des caractéristiques retrouvée dans de nombreux SGBD NoSQL est l'utilisation "d’agrégats de données" constitués d'un ensemble de données souvent "consultées/modifiées en même temps" et qui peuvent être déployées sur des serveurs indépendants3.
+                </p>
+                <p>À titre d'exemple considérons une application de commerce-en-ligne conçue de manière à accéder fréquemment aux informations d'un client (adresses, etc) et à l'historique de ses achats (par exemple pour lui proposer des réductions).
+                </p>
+                <ul>
+                    <li>Un SGBD relationnel typique modélisera ce système en créant une table des informations clients et une table des achats puis en effectuant une jointure entre ces dernières à chaque opération. Cette architecture pourra poser problème lorsque le nombre de clients/achats deviendra important et sera difficile à répartir entre plusieurs serveurs.
+                    </li>
+                    <li>A contrario une architecture SGBD NoSQL typique aura tendance à modéliser ce problème en un ensemble d'agrégats constitué des informations d'un client et de ses achats. Cette architecture est plus facilement scalable. En effet ces agrégats interagissent peu entre eux et peuvent facilement être répartis sur un cluster de serveurs. Cette architecture pourra par contre poser problème si pour une raison quelconque on est amené à effectuer des requêtes qui ne correspondent pas aux cas d'utilisation immédiatement considérés. Par exemple une demande de calcul du nombre total de clients ou d'achats pourra être moins efficace que dans un système relationnel qui conserve l'ensemble des clients (resp. achats) dans une table unique.
+                    </li>
+                </ul>
+                <img src="images/bdd.jpg">
+            </body>
+        </html>
