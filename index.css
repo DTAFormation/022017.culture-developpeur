@@ -1,5 +1,6 @@
 
 .wrapper {
+  transform: rotate(-40deg);
   height: 100%;
   width: 100%;
   left:0;
@@ -37,7 +38,6 @@ background-size: 1800% 1800%;
 }/* CSS Document */
 
 h1 {
-transform: rotate(40deg);
 color : yellow;
 }
 
@@ -47,7 +47,8 @@ a:visited {color: gray;}
 a:hover {color: yellow;}
 a:active {color: teal;}
 
+
+
 h2 {
-transform: rotate(-40deg);
 color : red;
 }
