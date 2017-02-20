@@ -19,3 +19,8 @@ h2 {
 transform: rotate(-2deg);
 color : red;
 }
+
+IMG.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
