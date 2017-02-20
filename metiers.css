@@ -12,5 +12,10 @@ h1 {
 p {
     font-family: verdana;
     font-size: 20px;
-    transform: rotate(-2deg);
+    
+}
+
+h2 {
+transform: rotate(-2deg);
+color : red;
 }
