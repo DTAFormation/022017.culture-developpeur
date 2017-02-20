@@ -15,8 +15,6 @@
             <p>À titre d'exemple considérons une application de commerce-en-ligne conçue de manière à accéder fréquemment aux informations d'un client (adresses, etc) et à l'historique de ses achats (par exemple pour lui proposer des réductions).</p>
             <ul><li>Un SGBD relationnel typique modélisera ce système en créant une table des informations clients et une table des achats puis en effectuant une jointure entre ces dernières à chaque opération. Cette architecture pourra poser problème lorsque le nombre de clients/achats deviendra important et sera difficile à répartir entre plusieurs serveurs.</li>
             <li>A contrario une architecture SGBD NoSQL typique aura tendance à modéliser ce problème en un ensemble d'agrégats constitué des informations d'un client et de ses achats. Cette architecture est plus facilement scalable. En effet ces agrégats interagissent peu entre eux et peuvent facilement être répartis sur un cluster de serveurs. Cette architecture pourra par contre poser problème si pour une raison quelconque on est amené à effectuer des requêtes qui ne correspondent pas aux cas d'utilisation immédiatement considérés. Par exemple une demande de calcul du nombre total de clients ou d'achats pourra être moins efficace que dans un système relationnel qui conserve l'ensemble des clients (resp. achats) dans une table unique.</li></ul>
-             rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
-
-    </body>
+      </body>
     </div>
 </html>
