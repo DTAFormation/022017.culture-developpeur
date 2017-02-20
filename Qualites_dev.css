@@ -1,0 +1,14 @@
+body {
+    background-color: lightblue;
+}
+
+
+h1 {
+    text-align: center;
+    color: darkblue;
+}
+
+p {
+    font-family: verdana;
+    font-size: 22px;
+}
